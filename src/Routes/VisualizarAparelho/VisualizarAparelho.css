@@ -1,0 +1,30 @@
+.ContainerVisualizar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.2rem;
+    padding: 2rem;
+    flex-direction: column;
+    & h1{
+        color: #855e6e;
+    }
+}
+
+.Visualizar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:3rem;
+    padding: 0.8rem;
+    border: 1px solid #0000;
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #888888;
+}
+
+.nomeaparelho{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ce7095;
+}

@@ -1,0 +1,58 @@
+/* Aparelhos.css */
+.ContainerAparelhos{
+  display:flex;
+  margin: 1.2rem;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.Aparelhos{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Apaid{
+  width: 20%;
+  justify-content: center;
+  display:flex;
+  align-items: center;
+  padding: 1.2rem;
+  margin: 1.2rem 0;
+  border: 1px solid #0000;
+  background-color: #ffff;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #888888;
+}
+.nome{
+  background-color: rgb(240, 198, 219);
+  text-align: center;
+  margin-top:25px;
+  border: none;
+  border-radius: 25px;
+  padding: 0.4rem;
+  color: black;
+  text-decoration: none;
+}
+
+.Aparelhos{
+  display: flex;
+  flex-direction: column;
+}
+.Texto{
+  text-align: center;
+  margin-top: 30px;
+  color: #ce7095;
+}
+.preco{
+  font-weight: bold;
+}
+  
+img {
+  display:flex;
+  max-width: 200px;
+  height: auto;
+  width: 200px;
+  height: 230px;
+}
+  
